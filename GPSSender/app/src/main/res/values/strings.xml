@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GPSSender</string>
+
+    <!-- Hints and Texts -->
+    <string name="edit_text_hint_1">Enter Phone Number</string>
+    <string name="button_text_1">Find Phone</string>
+</resources>
