@@ -25,7 +25,6 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
-        coreLibraryDesugaringEnabled true
     }
 }
 
@@ -38,8 +37,7 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
-    implementation libs.google.maps.sdk // Google Maps SDK
-    implementation libs.play.services.location // Google Location Services
-    implementation libs.play.services.base // Google Play Services for Maps and Location
-    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
+    implementation 'org.osmdroid:osmdroid-android:6.1.16'
+    implementation 'org.osmdroid:osmdroid-wms:6.1.16'
+    implementation 'org.osmdroid:osmdroid-mapsforge:6.1.16'
 }
