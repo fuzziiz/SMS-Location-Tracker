@@ -15,13 +15,7 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 
 public class Receiver extends BroadcastReceiver {
-    /*
-        TODO
-         - Remove ang popup sa layout
-         - Remove ang sa message ig mag send, murag makita sa user if mo automatic reply.
-    */
-
-    private static final String SMS_TRIGGER = "Hi!, good morning. :)";
+    private static final String SMS_TRIGGER = "Asa naka?";
 
     @Override
     public void onReceive(Context context, Intent intent) {
